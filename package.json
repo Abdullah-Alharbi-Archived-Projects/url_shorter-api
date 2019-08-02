@@ -1,0 +1,24 @@
+{
+  "name": "express-api-structure",
+  "version": "1.0.0",
+  "description": "api structure",
+  "main": "app.js",
+  "scripts": {
+    "production": "node app.js",
+    "dev-linux": "export debug=app:* && nodemon app.js",
+    "dev-windows": "set debug=app:* && nodemon app.js"
+  },
+  "keywords": [],
+  "dependencies": {
+    "config": "^3.1.0",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "mongoose": "^5.5.13",
+    "morgan": "^1.9.1",
+    "shortid": "^2.2.14",
+    "valid-url": "^1.0.9"
+  },
+  "author": "AbdullahAlharbi",
+  "license": "ISC"
+}
