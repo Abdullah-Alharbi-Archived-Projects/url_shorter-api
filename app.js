@@ -6,6 +6,9 @@ const port = process.env.PORT || process.argv[2] || config.get("port") || 8000;
 
 const app = express();
 
+// Do not expose software used
+app.disable("x-powered-by");
+
 require("./startup/logger")(app);
 require("./startup/database")();
 require("./startup/config")(app);
