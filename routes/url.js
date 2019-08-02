@@ -43,4 +43,9 @@ router.post("/shorten", async (req, res) => {
   }
 });
 
+router.get("/", async (req, res) => {
+  const urls = await URL.find(); // get all the records
+  res.send({ urls }); // return the urls array
+});
+
 module.exports = router;
