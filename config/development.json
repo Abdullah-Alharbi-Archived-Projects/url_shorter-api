@@ -1,0 +1,14 @@
+{
+  "port": 8001,
+  "db": {
+    "url": "mongodb://localhost/cut_it",
+    "useNewUrlParser": true,
+    "useFindAndModify": true
+  },
+  "logger": {
+    "active": true,
+    "level": "dev"
+  },
+  "static": "public",
+  "jwtSecretKey": "superDoperSecretKey"
+}
