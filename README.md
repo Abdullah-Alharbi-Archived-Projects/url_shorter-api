@@ -18,3 +18,4 @@
 ### GET
 
 - `/:code` -> redirect to the actual url
+- `/api/url` -> get all the urls
