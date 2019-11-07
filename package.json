@@ -15,7 +15,7 @@
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "helmet": "^3.18.0",
-    "mongoose": "^5.5.13",
+    "mongoose": "^5.7.5",
     "morgan": "^1.9.1",
     "shortid": "^2.2.14",
     "valid-url": "^1.0.9"
